@@ -1,4 +1,4 @@
-# Online Learning with Convolutional Variational Autoencoders for Streaming Bandwidth Reduction via Visual Anomaly Detection
+# Online Learning with Convolutional Variational Autoencoders for Bandwidth Reduction in Streaming Video via Visual Anomaly Detection
 
 Modern compression techniques leverage a learned representation over an image distribution to more efficiently encode redundant spatial context for a sample. Video content is also generally redundant in time. 
 
