@@ -6,7 +6,7 @@ This work implements online training of convolutional autoencoders to learn a no
 
 ![anomaly_detected](cvae_anomaly_detection.gif)
 
-## Usage
+## Setup
 
 Adapt the included config.ini to suit your needs. 
 
@@ -24,11 +24,24 @@ To explore different network architectures, change the net_arch parameter. This 
  * Second entry - Size of Convolutional Kernel (assumed square)
  * Third entry - Size of Pooling (assumed square)
 
-Then by running:
+## Dependencies
+
+This repo requires opencv and tensorflow:
+```
+pip install -r requirements.txt
+```
+
+## Running the Demo
+
+Set the config to reflect your video sources and model preferences before running:
+
 ```
 python3 visual_anomaly_detection_demo.py
 ```
-you will find a CVAE instantiated for each video source according to preferences set in the config.ini. Online training will ensue and anomalies will be printed to stdout based on the determined thresholding criteria (by default 5 sigma deviation from moving average).
+
+A CVAE is instantiated for each video source according to preferences set in the config.ini. 
+
+Online training begins and normal/anomaly classes along with the reconstruction loss will be streamed to stdout according to the configured threshold (by default 5 sigma deviation from moving average).
 
 ## References
 
