@@ -29,3 +29,7 @@ Then by running:
 python3 visual_anomaly_detection_demo.py
 ```
 you will find a CVAE instantiated for each video source according to preferences set in the config.ini. Online training will ensue and anomalies will be printed to stdout based on the determined thresholding criteria (by default 5 sigma deviation from moving average).
+
+## References
+
+ * [Hackster/NVIDIA](https://www.hackster.io/contests/NVIDIA) - AI at the Edge Challenge [Entry](https://www.hackster.io/smellslikeml/saving-bandwidth-with-anomaly-detection-16eb67)
