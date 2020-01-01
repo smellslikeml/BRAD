@@ -4,7 +4,7 @@ Modern compression techniques leverage a learned representation over an image di
 
 This work implements online training of convolutional autoencoders to learn a nonstationary image distribution in streaming video. Then, we perform anomaly detection by thresholding the autoencoder's reconstruction loss, which we regard as an anomaly score.
 
-![anomaly_detected](cvae_anomaly_detection.gif)
+![anomaly_detected](cae_anomaly_detection.gif)
 
 ## Setup
 
