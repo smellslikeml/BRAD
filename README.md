@@ -1,4 +1,4 @@
-# CVAEs for Anomaly Detection to Reduce Bandwidth in Streaming Video
+# Convolutional Autoencoders for Anomaly Detection to Reduce Bandwidth in Streaming Video
 
 Modern compression techniques leverage a learned representation over an image distribution to more efficiently encode redundant spatial context for a sample. Video content is also generally redundant in time. 
 
@@ -39,7 +39,7 @@ Set the config to reflect your video sources and model preferences before runnin
 python3 visual_anomaly_detection_demo.py
 ```
 
-A CVAE is instantiated for each video source according to preferences set in the config.ini. 
+A network is instantiated for each video source according to preferences set in the config.ini. 
 
 Online training begins and normal/anomaly classes along with the reconstruction loss will be streamed to stdout according to the configured threshold (by default 5 sigma deviation from moving average).
 
