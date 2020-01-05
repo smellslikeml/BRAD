@@ -1,4 +1,4 @@
-# Convolutional Autoencoders for Anomaly Detection to Reduce Bandwidth in Streaming Video
+# BRAD: Bandwidth Reduction with Anomaly Detection
 
 Modern compression techniques leverage a learned representation over an image distribution to more efficiently encode redundant spatial context for a sample. Video content is also generally redundant in time. 
 
